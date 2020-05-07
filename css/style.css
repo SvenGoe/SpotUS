@@ -1,0 +1,60 @@
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+.row.wow.fadeIn{
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 1000px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 650px;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+     background: #1C2331!important;
+  }
+}
+
+
+i.fas.fa-user.prefix.grey-text.active{
+  color: #3F51B5 !important;
+}
+
+
+.md-form .prefix.active{
+  color: #3F51B5 !important;
+}
+
+label.active{
+  color: #3F51B5 !important;
+}
+
+
+.md-form input:not([type]):not([readonly]):focus, .md-form input[type='text']:not([readonly]):not(.browser-default):focus, .md-form input[type='email']:not([readonly]):not(.browser-default):focus, .md-form textarea:not([readonly]).md-textarea:focus{
+  border-bottom: 1px solid #3F51B5;
+  box-shadow: 0px 1px 0px 0px #3F51B5;
+
+
+.icon:before {
+    content: "\f086";
+}
+
+
